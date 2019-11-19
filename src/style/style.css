@@ -127,7 +127,6 @@ main{
 }
 
 .box-text{
-    /* Cartelera */
 margin-bottom: 15px;
 padding-left: 3%;
 font-family: Montserrat;
@@ -141,9 +140,42 @@ color: #FF2C1F;
 /* footer */
 
 footer{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     height: 250px;
+}
+
+#redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.red{
+    display: flex;
+    flex-direction: row
+}
+
+.info-footer-up{
+    margin-bottom: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #fff;
+}
+.info-footer-down{
+    margin-top: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: #fff;
 }
 
 
