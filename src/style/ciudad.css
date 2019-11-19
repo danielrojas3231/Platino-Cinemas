@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    }
+    
+    /*header*/
+    
+    header{
+    
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+        align-items: center;
+        margin-bottom: -50px;
+    }
+    
+    hr{
+    width: 98%;
+    height: 2px;
+    border: 0px;
+    margin-bottom: 40px;
+    background-color: #FF2C1F;
+    }
+    
+    header nav{
+        width: 60%;
+    }
+    
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    
+    }
+    
+    header nav ul li{
+       list-style-type: none;
+        margin-left: 60px;
+    
+    }
+    
+    header nav ul  a{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color:#fff; 
+        text-decoration:none;
+     }
+    
+     header nav ul  a :hover{
+        color: #FF2C1F;
+        
+     }
+    
+    /* Imagen Logo */
+    
+    #platinum-logo{
+        cursor: pointer;
+    }
+    /*main*/
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    
+    /* footer */
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+    }
