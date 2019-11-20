@@ -1,7 +1,7 @@
 var peliculas = {
 
     0: {
-        "titulo": "joker",
+        "titulo": "Joker",
         "director": "Todd Philips",
         "reparto": `Joaquin Phoenix
         Robert De Niro
