@@ -3,6 +3,12 @@ var peliculas = {
     0: {
         "titulo": "Hola",
         "director": "Todd Philips",
+        "reparto": `Joaquin Phoenix
+        Robert De Niro
+        Zazie Beetz
+        Bill Camp
+        Frances Conroy
+        Brett Cullen`,
         "sinopsis": `La pasión de Arthur Fleck,
         un hombre ignorado por la
         sociedad, es hacer reír a la
