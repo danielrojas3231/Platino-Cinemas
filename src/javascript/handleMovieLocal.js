@@ -1,7 +1,7 @@
 var peliculas = {
 
     0: {
-        "titulo": "Hola",
+        "titulo": "joker",
         "director": "Todd Philips",
         "sinopsis": `La pasión de Arthur Fleck,
         un hombre ignorado por la
@@ -40,13 +40,14 @@ var peliculas = {
         considerablemente
         convirtiéndolo en un
         brillante criminal.`,
-        "url": "poster-malefica.jpg"
+        "url": "poster-terminator.jpg"
+        
     },
     4: {
         "titulo": "losk",
         "director": "Todd Philips",
         "sinopsis": `Hola`,
-        "url": "poster-terminator.jpg"
+        "url": "poster-malefica.jpg"
     }
 
 
