@@ -22,7 +22,7 @@ var peliculas = {
         "url": "poster-dedicada.jpg"
     },
     2: {
-        "titulo": "sueño",
+        "titulo": "Doctor Sueño",
         "director": "Todd Philips",
         "sinopsis": `Hola`,
         "url": "poster-doctor.jpg"
