@@ -7,7 +7,7 @@ background-color: black;
 header{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100px;
     align-items: center;
     margin-bottom: -50px;
@@ -117,14 +117,23 @@ main{
     margin-bottom: 20px;
 }
 
-.text-info{
+.text-info-up{
     text-align: left;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 22px;
 }
+
+.text-info-up p{
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 14px;
+  
+}
+
+
 
 .box-text{
 margin-bottom: 15px;
@@ -172,7 +181,7 @@ footer{
     margin-top: 0;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
 
     color: #fff;

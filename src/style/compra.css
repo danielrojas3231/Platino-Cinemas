@@ -1,0 +1,233 @@
+body{
+    background-color: black;
+    }
+    
+    /*header*/
+    
+    header{
+    
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+    }
+
+    
+    header nav{
+        width: 60%;
+    }
+    
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    
+    }
+    
+    header nav ul li{
+       list-style-type: none;
+        margin-left: 60px;
+    
+    }
+    
+    header nav ul  a{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color:#fff; 
+        text-decoration:none;
+     }
+    
+     header nav ul  a :hover{
+        color: #FF2C1F;
+        
+     }
+    
+    /* Imagen Logo */
+    
+    #platinum-logo{
+        cursor: pointer;
+    }
+    /*main*/
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #banner{
+        width: 100%;
+    }
+
+    #banner figure{
+        margin: 0; 
+    }
+
+    #banner figure img{
+        width: 100% 
+    }
+
+    #content{
+        display: flex;
+        flex-direction: row
+    }
+
+    #movie-info{
+        margin-left: 200px;
+        margin-top: -280px;
+       
+    }
+
+    #movie-info figure{
+        margin: 0;
+    }
+
+    #movie-info figure img{
+
+        margin-bottom: 40px; 
+        
+    }
+
+    #movie-info hr{
+        width: 98%;
+        height: 2px;
+        border: 0px;
+       
+        background-color: #FF2C1F;
+        }
+
+    .title {
+
+        color: #FF2C1F;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight:  bold;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+
+    .text {
+
+        color: #ffffff; 
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 60px;
+
+
+
+
+    }
+
+    
+    .flex-container {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      
+      -webkit-flex-flow: row wrap;
+      justify-content: space-around;
+      margin-bottom: 50px;
+    }
+    
+    .flex-item {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      line-height: 150px;
+      font-weight: bold;
+      color: #fff;
+    }
+    
+    .flex-item img{
+        margin-bottom: 20px;
+    }
+    
+    .text-info-up{
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .text-info-up p{
+        font-weight: normal;
+        margin-top: 0px;
+        font-size: 14px;
+      
+    }
+    
+    
+    
+    .box-text{
+    margin-bottom: 15px;
+    padding-left: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    color: #FF2C1F;
+    }
+    
+    /* footer */
+    footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 250px;
+    }
+    
+    #redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .red{
+        display: flex;
+        flex-direction: row
+    }
+    .red div a{
+        text-decoration: none;
+    }
+    
+    .red div a :hover{
+
+        color: #FF2C1F;
+    }
+    
+    .info-footer-up{
+        margin-bottom: 5px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+    
+        color: #fff;
+    }
+    .info-footer-down{
+        margin-top: 0;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+    
+        color: #fff;
+    }
+    
