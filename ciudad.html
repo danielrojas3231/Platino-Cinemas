@@ -44,8 +44,25 @@
                     deseas ver tu película.
             </div>
             <div class="select-main">
-                <div class="select-city"></div>
-                <div class="select-cinema"></div>
+                
+                    <div class="custom-select" style="width:200px;">
+                            <select >
+                              <option value="0" class="listaCiudad">Seleccione Ciudad:</option>
+                              <option value="1" class="listaCiudad">Cali</option>
+                              <option value="2" class="listaCiudad">Bogotá</option>
+                              <option value="3" class="listaCiudad">Medellin</option>
+                            </select>
+                          </div>
+
+                  <div class="custom-select" style="width:200px;">
+                             <select>
+                                <option value="0" class="listaCine">Seleccione Cine:</option>
+                                <option value="1" class="listaCine">Principal</option>
+                                <option value="2" class="listaCine">Centro</option>
+                            </select>
+                        </div>
+
+                   
             </div>
             <div class="botton">
                 <div class="botton-information">
@@ -56,32 +73,50 @@
     </main>
 
     <footer>
-        <img src="src/data/logo-footer.png" alt="logo.png">
-        <div id="redes">
-            <div>
-                a <a href="https://www.facebook.com/">
-                    <img src="src/data/facebook.png" alt="facebook.png">
-                    <p>FACEBOOK</p>
-                    <p>platinocinemas</p>
-                </a>
-
-            </div>
-            <div>
-                <a href="https://twitter.com/?lang=es">
-                    <img src="src/data/twitter.png" alt="twitter.png">
-                    <p>TWITTER</p>
-                    <p>platinocinemas</p>
-                </a>
-
-            </div>
-            <div>
-                <a href="https://www.instagram.com/">
-                    <img src="src/data/instagram.png" alt="instagram.png">
-                    <p>INSTAGRAM</p>
-                    <p>platinocinemas</p>
-                </a>
-            </div>
-        </div>
+            <figure>
+                    <img src="src/data/logo-footer.png" alt="logo.png">
+                </figure>
+                
+        
+                <div id="redes">
+                    <div class="red">
+                        <figure>
+                            <img src="src/data/facebook.png" alt="facebook.png">
+                        </figure>
+                        <div>
+                            <a href="https://www.facebook.com/">
+                            <p class="info-footer-up">FACEBOOK</p>
+                            <p class="info-footer-down">platinocinemas</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="red">
+                        <figure>
+                            <img src="src/data/twitter.png" alt="twitter.png">
+                        </figure>
+                        <div>    
+                            <a href="https://twitter.com/?lang=es">
+                            <p class="info-footer-up">TWITTER</p>
+                            <p class="info-footer-down">platinocinemas</p>
+                            </a>
+                        </div>
+                   
+        
+                    </div>
+                    <div class="red">
+                        <figure>
+                            <img src="src/data/instagram.png" alt="instagram.png">  
+                        </figure>
+         
+                        <div>    
+                            <a href="https://www.instagram.com/?hl=es-la">
+                            <p class="info-footer-up">INSTAGRAM</p>
+                            <p class="info-footer-down">platinocinemas</p>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
     </footer>
 
     <script src="src/javascript/ciudad.js"></script>
