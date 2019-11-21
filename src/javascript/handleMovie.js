@@ -3,8 +3,6 @@
     //elemento general
     const movieFrame = document.querySelectorAll('.movieFrame');
 
-
-
     for (let index = 0; index < movieFrame.length; index++) {
  
         movieFrame[index].addEventListener("click", function() {

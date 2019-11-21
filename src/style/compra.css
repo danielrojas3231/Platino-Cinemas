@@ -71,6 +71,7 @@ body{
 
     #content{
         display: flex;
+        justify-content: space-between;
         flex-direction: row
     }
 
@@ -78,6 +79,7 @@ body{
         width: 262px;
         margin-left: 200px;
         margin-top: -280px;
+        margin-right: 150px;
        
     }
 
@@ -95,7 +97,6 @@ body{
         width: 98%;
         height: 2px;
         border: 0px;
-       
         background-color: #FF2C1F;
         }
 
@@ -115,74 +116,119 @@ body{
         color: #ffffff; 
         font-family: Montserrat;
         font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
+        font-weight: normal !important;
+        font-size: 15px;
         line-height: 22px;
         margin-bottom: 60px;
 
+    }
 
+    #teatro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 150px;
+        margin-top: 80px;
+        height: 600px;
+     
+    }
 
+    #teatro hr{
+        width: 98%;
+        height: 2px;
+        border: 0px;
+        margin-bottom: 50px; 
+        margin-top: 20px;
+       
+        background-color: #FF2C1F;
 
     }
 
-    
-    .flex-container {
-      padding: 0;
-      margin: 0;
-      list-style: none;
-      
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      
-      -webkit-flex-flow: row wrap;
-      justify-content: space-around;
-      margin-bottom: 50px;
+    .title2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        color: #FF2C1F;
+        text-align: center;
     }
-    
-    .flex-item {
-      display: flex;
-      flex-direction: column;
-      cursor: pointer;
-      line-height: 150px;
-      font-weight: bold;
-      color: #fff;
+
+    #reservas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 50px;
+
     }
-    
-    .flex-item img{
-        margin-bottom: 20px;
+
+    #fecha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        
     }
-    
-    .text-info-up{
-        text-align: left;
+
+    #fecha div{
+        margin-bottom: 10px;
+    }
+
+    #fecha figure{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+
+    #horarios{
+        width: 390px;
+        height: 190px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .horario{
+        width: 163px;
+        height: 54px;
+        background-color: #fff;
+        border: none;
+        color:  black;
+
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
         line-height: 22px;
+
     }
-    
-    .text-info-up p{
-        font-weight: normal;
-        margin-top: 0px;
-        font-size: 14px;
-      
+
+    .horario-selected{ 
+        width: 163px;
+        height: 54px;
+        background-color: #FF2C1F;
+        border: none;
+        color: white;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        border: none;
+        outline:none;
     }
-    
-    
-    
-    .box-text{
-    margin-bottom: 15px;
-    padding-left: 3%;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 22px;
-    color: #FF2C1F;
-    }
+
+
     
     /* footer */
     footer{

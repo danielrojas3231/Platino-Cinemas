@@ -128,10 +128,11 @@ var sinopsisL = document.querySelector(".sinopsisMovie");
 var ulrImage = document.querySelector(".imagePoster");
 
 
-function local(tituloC, directorC, sinopsisC, urlC) {
+function local(tituloC, directorC,repartoC, sinopsisC, urlC) {
     console.log(ulrImage);
     tituloL.innerText = tituloC;
     directorL.innerHTML = directorC;
+    repartoL.innerHTML = repartoC;
     sinopsisL.innerHTML = sinopsisC;
     ulrImage.src = "./src/data/" +urlC;
     console.log("./src/data/"+urlC);
@@ -139,7 +140,7 @@ function local(tituloC, directorC, sinopsisC, urlC) {
 }
 
 console.log(peliculas[index].url);
-local(peliculas[index].titulo, peliculas[index].director, peliculas[index].sinopsis, peliculas[index].url);
+local(peliculas[index].titulo, peliculas[index].director,peliculas[index].reparto, peliculas[index].sinopsis, peliculas[index].url);
 
 
 
