@@ -19,7 +19,8 @@ var peliculas = {
         considerablemente
         convirtiéndolo en un
         brillante criminal.`,
-        "url": "joker-poster 2.png"
+        "url": "joker-poster 2.png",
+        "banner": "banner-joker.png"
     },
     1: {
         "titulo": "Dedicada a mi ex",
@@ -41,7 +42,8 @@ var peliculas = {
         competir contra bandas que si tienen
         talento y su plan maestro no será tan
         fácil después de todo.`,
-        "url": "poster-dedicada.jpg"
+        "url": "poster-dedicada.jpg",
+        "banner": "banner-dedicada.jpg"
     },
     2: {
         "titulo": "Doctor Sueño",
@@ -58,7 +60,8 @@ var peliculas = {
         contacta con una niña de nombre Abra Stone, a quien debe
         rescatar de un grupo de viajeros que se alimentan de los
         niños que poseen el don de "el resplandor" `,
-        "url": "poster-doctor.jpg"
+        "url": "poster-doctor.jpg",
+        "banner": "banner-doctor.jpg"
     },
     3: {
         "titulo": "Terminator: Dark Fate",
@@ -80,7 +83,8 @@ var peliculas = {
         hasta un T-800 (Arnold Schwarzenegger) perteneciente al pasado de
         Sarah, que bien podría ser su mejor y última esperanza.`,
         
-        "url": "poster-terminator.jpg"
+        "url": "poster-terminator.jpg",
+        "banner": "banner-terminator.png"
     },
     4: {
         "titulo": "Maléfica: Dueña del Mal",
@@ -94,7 +98,8 @@ var peliculas = {
         comienzan a cuestionar los complejos lazos familiares que las unen,
         mientras son presionadas en diferentes direcciones por una boda inminente,
         aliados inesperados y nuevas fuerzas oscuras que entran en juego.`,
-        "url": "poster-malefica.jpg"
+        "url": "poster-malefica.jpg",
+        "banner": "banner-malefica.jpg"
     }
 
 
