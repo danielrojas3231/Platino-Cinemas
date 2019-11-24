@@ -131,21 +131,23 @@ var directorL = document.querySelector(".directorMovie");
 var repartoL = document.querySelector(".castingMovie");
 var sinopsisL = document.querySelector(".sinopsisMovie");
 var ulrImage = document.querySelector(".imagePoster");
+var bannerL = document.querySelector(".bannerMovie");
 
 
-function local(tituloC, directorC,repartoC, sinopsisC, urlC) {
+function local(tituloC, directorC,repartoC, sinopsisC, urlC, bannerC) {
     console.log(ulrImage);
     tituloL.innerText = tituloC;
     directorL.innerHTML = directorC;
     repartoL.innerHTML = repartoC;
     sinopsisL.innerHTML = sinopsisC;
     ulrImage.src = "./src/data/" +urlC;
+    bannerL.src = "./src/data/" +bannerC;
     console.log("./src/data/"+urlC);
 
 }
 
 console.log(peliculas[index].url);
-local(peliculas[index].titulo, peliculas[index].director,peliculas[index].reparto, peliculas[index].sinopsis, peliculas[index].url);
+local(peliculas[index].titulo, peliculas[index].director,peliculas[index].reparto, peliculas[index].sinopsis, peliculas[index].url, peliculas[index].banner);
 
 
 
