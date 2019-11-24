@@ -147,7 +147,6 @@ color: #FF2C1F;
 }
 
 /* footer */
-
 footer{
     width: 100%;
     display: flex;
@@ -166,6 +165,14 @@ footer{
 .red{
     display: flex;
     flex-direction: row
+}
+.red div a{
+    text-decoration: none;
+}
+
+.red div a :hover{
+
+    color: #FF2C1F;
 }
 
 .info-footer-up{
