@@ -72,3 +72,50 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
+
+
+//////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////
+
+let nombre = document.querySelector(".name")
+let code = document.querySelector(".numberCode")
+let month = document.querySelector(".month")
+let year = document.querySelector(".year")
+let security = document.querySelector(".security")
+
+
+
+ let btn = document.querySelector(".button");
+
+btn.addEventListener("click", function () {
+    let nombreInput = nombre.value;
+    let codeInput = code.value;
+   
+    let securityInput = security.value;
+
+
+    if (  nombreInput.length > 0 && codeInput.length > 0 &&   
+          securityInput.length > 0 && codeInput.length < 8 &&  securityInput.length < 8 ) {
+            document.location.href = "./home.html";
+    } else 
+    if (nombreInput.length == 0) {
+        alert("ingrese un nombre");
+    }
+    if (codeInput.length == 0) {
+        alert("ingrese una contraseña");
+    }
+    if (securityInput.length == 0) {
+        alert("ingrese una codigo de seguridad");
+    }
+  
+    if (codeImput.length > 8){
+        alert("contraseña muy largo")
+    }
+    if (securityInput.length > 3){
+        alert("codigo de seguridad muy largo")
+    }
+})
