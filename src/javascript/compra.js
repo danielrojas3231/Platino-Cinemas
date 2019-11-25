@@ -134,7 +134,7 @@ function validar(){
             posicion1 = (esferas[i].x-x1)/40;
             posicion2 = (esferas[i].y-40)/40;            
 
-            asiento.push(listaY[posicion2],listaX[posicion1]);
+            asiento.push(listaY[posicion2]+"-"+listaX[posicion1]);
         }
 
     }
@@ -194,13 +194,15 @@ class Esfera{
 }
 
 
+
 /*validacion de asientos*/
 
 const buttonC = document.querySelector('.button-compras');
 console.log(buttonC);
 buttonC.addEventListener("click", function() {
     validar();
-    
+    localStorage.setItem("asientos", asiento);
+    window.location.href = "pago.html";
 });
 
 

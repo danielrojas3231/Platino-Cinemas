@@ -9,6 +9,11 @@ for (let index = 0; index < horario.length; index++) {
         var horario2 = document.querySelector(".horario-selected");
         horario[index].classList.replace("horario","horario-selected");
         horario2.classList.replace("horario-selected","horario");
+        var horario2 = document.querySelector(".horario-selected");
+
+        localStorage.setItem("horario", horario2.localName);
+        
+
        
     });
 }

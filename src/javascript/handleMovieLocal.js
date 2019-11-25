@@ -150,4 +150,3 @@ console.log(peliculas[index].url);
 local(peliculas[index].titulo, peliculas[index].director,peliculas[index].reparto, peliculas[index].sinopsis, peliculas[index].url, peliculas[index].banner);
 
 
-
