@@ -121,7 +121,7 @@ body{
         font-weight: normal !important;
         font-size: 15px;
         line-height: 22px;
-        
+        margin-bottom: 40px;
 
     }
 
@@ -138,6 +138,7 @@ body{
         height: 3px;
         border: 0px;
         background-color: #FF2C1F;
+        margin-bottom: 40px;
         }
 
     .title2{
@@ -225,7 +226,7 @@ body{
     }
 
     #canvas{
-        height: 600px;
+        height: 400px;
     }
 
 
