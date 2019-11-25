@@ -229,6 +229,27 @@ body{
         height: 400px;
     }
 
+    .button-compras {
+        margin: auto;
+        width: 264px;
+        height: 58px;
+        border: none;
+        background: #FF2C1F;
+        margin: auto;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .button-compras:hover{
+        background: rgb(224, 17, 6);
+
+    }
+
 
     
     /* footer */

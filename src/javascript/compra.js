@@ -14,6 +14,17 @@ let matriz2=[
     [1,1,1,1,1,1,1,1],
 ];
 
+let asiento=[];
+let listaX=[1,2,3,4,5,6,7,8,0,9,10,11,12,13,14,15,16];
+let listaY=["A","B","","C","D"];
+
+var canvaDiv = document.querySelector("#canvas");
+
+var width = canvaDiv.offsetWidth;
+var height = canvaDiv.offsetHeight;
+var x1 = (width/2)-340;
+var x2 = (width/2)+20;
+
 function setup(){
     var canvaDiv = document.querySelector("#canvas");
 
@@ -24,8 +35,6 @@ function setup(){
 
     var canvas = createCanvas(width,height);
     canvas.parent('canvas');
-
-    efe= new Esfera(40,40,3);
 
     esferas=[];
     for(let i=0; i<5; i++){
@@ -59,6 +68,7 @@ function draw() {
     var canvaDiv = document.querySelector("#canvas");
 
     var width = canvaDiv.offsetWidth;
+    var height = canvaDiv.offsetHeight;
     var x1 = (width/2)-340;
     var x2 = (width/2)+20;
 
@@ -92,19 +102,48 @@ function draw() {
     text("13",x1+(13*40),30+(6*40));
     text("14",x1+(14*40),30+(6*40));
     text("15",x1+(15*40),30+(6*40));
-    text("16",x1+(16*40),30+(6*40));
+    text("16",x1+(16*40),30+(6*40)); 
 
-   // efe.pintar();
+    
+
     for(let i=0; i<esferas.length; i++){
         esferas[i].pintar();
     }
 }
 function mouseClicked() {
+
+    
     for(let i=0; i<esferas.length; i++){
         esferas[i].elegir();
     }
 
 }
+
+function validar(){
+            
+    var canvaDiv = document.querySelector("#canvas");
+
+    var width = canvaDiv.offsetWidth;
+    var height = canvaDiv.offsetHeight;
+    var x1 = (width/2)-340;
+    var x2 = (width/2)+20;
+
+    for(let i=0; i<esferas.length; i++){
+        
+        if(esferas[i].index == 3 ){
+            posicion1 = (esferas[i].x-x1)/40;
+            posicion2 = (esferas[i].y-40)/40;            
+
+            asiento.push(listaY[posicion2],listaX[posicion1]);
+        }
+
+    }
+    console.log(asiento);
+
+    
+}
+
+
 class Esfera{
     constructor(x,y,index){
         this.x=x;
@@ -153,4 +192,15 @@ class Esfera{
     }
 
 }
+
+
+/*validacion de asientos*/
+
+const buttonC = document.querySelector('.button-compras');
+console.log(buttonC);
+buttonC.addEventListener("click", function() {
+    validar();
+    
+});
+
 
