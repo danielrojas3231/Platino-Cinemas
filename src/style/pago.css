@@ -1,0 +1,476 @@
+body {
+    background-color: black;
+}
+
+/*header*/
+
+header {
+
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    margin-bottom: -50px;
+}
+
+hr {
+    width: 98%;
+    height: 2px;
+    border: 0px;
+    margin-bottom: 40px;
+    background-color: #FF2C1F;
+}
+
+header nav {
+    width: 60%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+header nav ul li {
+    list-style-type: none;
+    margin-left: 60px;
+
+}
+
+header nav ul a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul a :hover {
+    color: #FF2C1F;
+
+}
+
+/* Imagen Logo */
+
+#platinum-logo {
+    cursor: pointer;
+}
+
+/*main*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*   banner   */
+#top {
+    margin-bottom: 50px;
+}
+
+#top-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#top-text {
+    width: 550px !important;
+    margin-top: -180px !important;
+}
+
+#top-image img {
+    width: 100%;
+
+}
+
+/* Main contenedor*/
+
+.contenedor {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    margin-left: 25%;
+ 
+    
+    /* identical to box height */
+    color: #000000;
+}
+
+.items-contenedor {
+    
+    margin-bottom: 15px;
+    align-content: center;
+    justify-content: center;
+    background: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.items-line{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    
+}
+
+.box-item {
+    display: flex;
+    flex-direction: column;
+    height: 54px;
+    width: 100%;
+    border: 3px solid #6B6B6B;
+    box-sizing: border-box;
+}
+
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    height: 54px;
+    width: 100%;
+    border: 3px solid #FF2C1F;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+@import "compass/css3";
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    line-height: 150px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.flex-item img {
+    margin-bottom: 20px;
+}
+
+.text-info-up {
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.text-info-up p {
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 14px;
+
+}
+
+
+
+.box-text {
+    margin-bottom: 15px;
+    padding-left: 3%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 22px;
+    color: #FF2C1F;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.red {
+    display: flex;
+    flex-direction: row
+}
+
+.red div a {
+    text-decoration: none;
+}
+
+.red div a :hover {
+
+    color: #FF2C1F;
+}
+
+.info-footer-up {
+    margin-bottom: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #fff;
+}
+
+.info-footer-down {
+    margin-top: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: #fff;
+}
+
+
+
+/* Codigo de Payan, no tocar, supuestamente funciona */
+
+
+.right__btn {
+    cursor: pointer;
+}
+
+.left__btn {
+    cursor: pointer;
+}
+
+
+.tape__control {
+    display: none;
+
+}
+
+
+.instruments__tape {
+    overflow-x: hidden;
+    transition: width 1s ease-out, left.3s ease-out;
+    height: 75%;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    align-content: center;
+
+
+}
+
+.instruments {
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.instrument {
+
+    width: 112px;
+    height: 336px;
+    margin: auto;
+
+
+}
+
+.instrument__link {
+
+    color: black;
+    text-decoration: none;
+    margin-top: 35px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.instrument__link:hover {
+    transition: color .3s ease-out, text-shadow .3s ease-out;
+    color: #F25252;
+    text-shadow: 0px 0px 2px #F25252;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////*/
+/* medium screens */
+@media (max-width: 1300px) {
+    .instruments__tape {
+        transition: width 1s ease-out, left.3s ease-out;
+        width: 190%;
+        left: 0px;
+    }
+
+    .tape__control {
+
+        left: 3%;
+        top: 1220px;
+        position: absolute;
+        width: 93vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .right__btn {
+        transform: rotate(180deg);
+    }
+
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////////////////////////*/
+/* small screens */
+@media (max-width: 800px) {
+    .new__title {
+        font-size: 16px;
+    }
+
+    .instruments__tape {
+
+        width: 575%;
+        margin-left: -0%;
+    }
+
+    .tape__control {
+        top: 1020px;
+        position: absolute;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+/*///////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////*/
+
+.custom-select {
+    position: relative;
+    font-family: Montserrat;
+    height: 54px;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: rgb(253, 46, 46);
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(53, 14, 14, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: rgb(145, 14, 14);
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(235, 26, 26, 0.1);
+  }
+
+  .button {
+    
+    width: 264px;
+    height: 58px;
+    border: none;
+    background: #FF2C1F;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
