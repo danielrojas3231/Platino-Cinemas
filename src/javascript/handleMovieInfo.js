@@ -12,7 +12,7 @@ var PeliculasName =["Joker",
 var asientosD = document.querySelector(".asientos");
 var horarioD = document.querySelector(".horario");
 var nombreD = document.querySelector(".Pelicula")
-console.log(PeliculasName[0]);
+console.log(horario);
 
 function poner(asientos,horario,nombre){
     asientosD.innerHTML= asientos;

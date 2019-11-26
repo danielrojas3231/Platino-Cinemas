@@ -38,132 +38,101 @@
     </header>
 
     <main>
-        <div>
-            <div class="contenedor">
-
-                <div class="items-contenedor">
-                    <div style="text-align: center; width: 100%;">Resumen de compra</div>
-                    <div>
-                        Pelicula
-                        <div class="box-item">
-                            <div class="Pelicula"></div>
-                        </div>
-                    </div>
-                    <div class="items-line">
-                        <div style="width: 45%;">
-                                Fecha
-                                <div class="box-item">
-                                    <div>19/11/2019</div>
-                                </div>
-                        </div>
-                        <div style="width: 45%;">
-
-                                Hora
-                                <div class="box-item">
-                                    <div class="horario"></div>
-                                </div>
-                        </div>
-                                
-                    </div>
-                    <div >
-                        <div class="items-line">
-                                <div style="width: 45%;">
-                                        Teatro
-                                        <div class="box-item"></div>
-                                </div>
-                                <div style="width: 45%;">
-                                        Posición
-                                        <div class="box-item">
-                                            <div class="asientos">
-
-                                            </div>
-                                        </div>
-                                </div>
-                              
-                        </div>
-                      
-         
-                    </div>
-                </div>
-
-
-                <div class="items-contenedor">
-                        <div style="text-align: center; width: 100%;">Datos de Pago</div>
-                        <div style="margin: auto;">
-                            <img src="./src/data/t1.png" alt="t1">
-                            <img src="./src/data/t2.png" alt="t2">
-                            <img src="./src/data/t3.png" alt="t3">
-                        </div>
-                        <div>
-                            Nombre
-                            <input type="text" class="input-item name">
-                        </div>
-                        <div>
-                                Numero de Tarjeta
-                                <input type="number" class="input-item numberCode">
-                            </div>
-                        <div class="items-line">
-                            <div style="width: 45%;">
-                                    Fecha
-                                    <div class="custom-select month" style="height: 54px;">
-                                            <select >
-                                              <option value="0" class="listaCiudad">Mes </option>
-                                              <option value="1" class="listaCiudad">Enero</option>
-                                              <option value="2" class="listaCiudad">Febreo</option>
-                                              <option value="3" class="listaCiudad">Marzo</option>
-                                              <option value="4" class="listaCiudad">Abril</option>
-                                              <option value="5" class="listaCiudad">Mayo</option>
-                                              <option value="6" class="listaCiudad">Junio</option>
-                                              <option value="7" class="listaCiudad">Julio</option>
-                                              <option value="8" class="listaCiudad">Agosto</option>
-                                              <option value="9" class="listaCiudad">Septiembre</option>
-                                              <option value="10" class="listaCiudad">Octubre</option>
-                                              <option value="11" class="listaCiudad">Noviembre</option>
-                                              <option value="12" class="listaCiudad">Diciembre</option>
-                                            </select>
-                                          </div>
-                            </div>
-                            <div style="width: 45%;">
     
-                                    Hora
-                                    <div class="custom-select year" style=" height: 54px;">
-                                            <select >
-                                              <option value="0" class="listaCiudad">Año </option>
-                                              <option value="1" class="listaCiudad">2019</option>
-                                              <option value="2" class="listaCiudad">2020</option>
-                                              <option value="3" class="listaCiudad">2021</option>
-                                              <option value="4" class="listaCiudad">2022</option>
-                                              <option value="5" class="listaCiudad">2023</option>
-                                              <option value="6" class="listaCiudad">2024</option>
-                                            </select>
-                                          </div>
-                            </div>
-                                    
+            <div class="contenedor">
+                <h1> RESUMEN DE COMPRA </h2>
+                <div class="resumen">
+                    
+                    <h1>PELICULA</h1>
+                    <div class="box-item">
+                        <div class="Pelicula"></div>
+                    </div>
+                    <div class="linea">
+                        <div style="width: 45%;">
+                            <h1>Fecha</h1>
+                            <div class="box-item">
+                                <div>19/11/2019</div>
+                             </div>
                         </div>
-                        <div >
-                            <div class="items-line ">
-                                    <div style="width: 45%;">
-                                            Codigo de Seguridad
-                                          <input type="number" class="input-item security">
-                                    </div>
-                                    <div style="width: 45%;">
-                                          
-                                    </div>
-                                  
+                        <div style="width: 45%;">
+                            <h1>Hora</h1>
+                            <div class="box-item">
+                                <div class="horario"></div>
                             </div>
-                          
-             
                         </div>
+                    </div>
+                    <div class="linea">
+                        <div style="width: 45%;">
+                            <h1>Teatro</h1>
+                            <div class="box-item">
+                                <div></div>
+                             </div>
+                        </div>
+                        <div style="width: 45%;">
+                            <h1>Posición</h1>
+                            <div class="box-item">
+                                <div class="asientos"></div>
+                            </div>
+                        </div>
+                    </div>
 
-                        <div style="margin: auto; margin-top: 10px;">
+                </div>
+                <h1>DATOS DE PAGO</h1>
+                <div class="pago">
+                    <div class="imagenes">
+                        <img src="./src/data/t1.png" alt="t1">
+                        <img src="./src/data/t2.png" alt="t2">
+                        <img src="./src/data/t3.png" alt="t3">
+                    </div>
+                    <h1>Nombre</h1>
+                    <input type="text" class="input-item name">
+                    <h1>Numero Tarjeta</h1>
+                    <input type="number" class="input-item numberCode">
+                    <h1>Fecha de expiración</h1>
+                    <div class="linea">
+                        <div style="width: 45%;">
                             
-                <button class="button acept">
-                        Aceptar
-                    </button>
+                            <div class="custom-select month" style="height: 54px;">
+                                <select >
+                                    <option value="0" class="listaCiudad">Mes </option>
+                                    <option value="1" class="listaCiudad">Enero</option>
+                                    <option value="2" class="listaCiudad">Febreo</option>
+                                    <option value="3" class="listaCiudad">Marzo</option>
+                                    <option value="4" class="listaCiudad">Abril</option>
+                                    <option value="5" class="listaCiudad">Mayo</option>
+                                    <option value="6" class="listaCiudad">Junio</option>
+                                    <option value="7" class="listaCiudad">Julio</option>
+                                    <option value="8" class="listaCiudad">Agosto</option>
+                                    <option value="9" class="listaCiudad">Septiembre</option>
+                                    <option value="10" class="listaCiudad">Octubre</option>
+                                    <option value="11" class="listaCiudad">Noviembre</option>
+                                    <option value="12" class="listaCiudad">Diciembre</option>
+                                </select>
+                            </div>
                         </div>
+                        <div style="width: 45%;">
+                            <div class="custom-select year" style=" height: 54px;">
+                                <select >
+                                    <option value="0" class="listaCiudad">Año </option>
+                                    <option value="1" class="listaCiudad">2019</option>
+                                    <option value="2" class="listaCiudad">2020</option>
+                                    <option value="3" class="listaCiudad">2021</option>
+                                    <option value="4" class="listaCiudad">2022</option>
+                                    <option value="5" class="listaCiudad">2023</option>
+                                    <option value="6" class="listaCiudad">2024</option>
+                                 </select>
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Codigo de Seguridad</h1>
+                    <input type="number" class="input-item security">
+                    <div class="pago-button">
+                        <button class="button acept">Aceptar</button>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
+        
     </main>
 
     <footer>

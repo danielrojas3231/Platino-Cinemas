@@ -10,7 +10,7 @@ header {
     justify-content: space-around;
     height: 100px;
     align-items: center;
-    margin-bottom: -50px;
+    margin-bottom: 90px;
 }
 
 hr {
@@ -63,150 +63,104 @@ header nav ul a :hover {
 main {
     display: flex;
     flex-direction: column;
-}
-
-
-/*   banner   */
-#top {
-    margin-bottom: 50px;
-}
-
-#top-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#top-text {
-    width: 550px !important;
-    margin-top: -180px !important;
-}
-
-#top-image img {
-    width: 100%;
+    align-items: center;
 
 }
 
 /* Main contenedor*/
 
 .contenedor {
-    margin-top: 45px;
+    width:  630px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    width: 100%;
-    
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.contenedor h1{
+    text-align: center;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
-    padding-bottom: 10px;
-    margin-left: 25%;
- 
-    
-    /* identical to box height */
     color: #000000;
-}
-
-.items-contenedor {
-    
-    margin-bottom: 15px;
-    align-content: center;
-    justify-content: center;
-    background: white;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.items-line{
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    justify-content: space-between;
-    
-}
-
-.box-item {
-    display: flex;
-    flex-direction: column;
-    height: 54px;
-    width: 100%;
-    border: 3px solid #6B6B6B;
-    box-sizing: border-box;
-}
-
-
-.input-item {
-    display: flex;
-    flex-direction: column;
-    height: 54px;
-    width: 100%;
-    border: 3px solid #FF2C1F;
-    font-size: 22px;
-    box-sizing: border-box;
-}
-
-@import "compass/css3";
-
-.flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-
-    -webkit-flex-flow: row wrap;
-    justify-content: space-around;
-    margin-bottom: 50px;
-}
-
-.flex-item {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    line-height: 150px;
-    font-weight: bold;
-    color: #fff;
-}
-
-.flex-item img {
     margin-bottom: 20px;
 }
 
-.text-info-up {
+.resumen{
+    margin-bottom: 30px;
+}
+
+.resumen h1{
     text-align: left;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+    color: #000000;
+    margin-bottom: auto;
 }
 
-.text-info-up p {
-    font-weight: normal;
-    margin-top: 0px;
-    font-size: 14px;
-
+.linea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-
-
-.box-text {
-    margin-bottom: 15px;
-    padding-left: 3%;
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pago h1{
+    text-align: left;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 22px;
-    color: #FF2C1F;
+    color: #000000;
+    margin-bottom: auto;
+}
+
+.box-item {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+    border: 2px solid #6B6B6B;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #6B6B6B;
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    height: 54px;
+    width: 100%;
+    border: 2px solid #FF2C1F;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+.pago-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
 }
 
 /* footer */

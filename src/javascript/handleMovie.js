@@ -10,8 +10,8 @@
             //guardo en el local storage
             localStorage.setItem("index", index);
             window.location.href = "compra.html";
-            
            
+            
         });
     }
 

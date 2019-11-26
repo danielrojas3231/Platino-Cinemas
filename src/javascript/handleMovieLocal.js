@@ -136,7 +136,7 @@ var bannerL = document.querySelector(".bannerMovie");
 
 function local(tituloC, directorC,repartoC, sinopsisC, urlC, bannerC) {
     console.log(ulrImage);
-    tituloL.innerText = tituloC;
+    tituloL.innerHTML = tituloC;
     directorL.innerHTML = directorC;
     repartoL.innerHTML = repartoC;
     sinopsisL.innerHTML = sinopsisC;
