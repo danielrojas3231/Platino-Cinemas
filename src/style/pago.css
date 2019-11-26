@@ -4,16 +4,16 @@ body {
 
 /*header*/
 
-header {
+header{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
     align-items: center;
-    margin-bottom: 90px;
+
 }
 
-hr {
+hr{
     width: 98%;
     height: 2px;
     border: 0px;
@@ -21,15 +21,14 @@ hr {
     background-color: #FF2C1F;
 }
 
-header nav {
-    width: 60%;
+header nav{
+    width: 30%;
 }
 
-header nav ul {
+header nav ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-
+    justify-items: center;
 
 }
 
