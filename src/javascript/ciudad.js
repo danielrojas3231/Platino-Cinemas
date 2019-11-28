@@ -21,7 +21,7 @@ for (i = 0; i < x.length; i++) {
             and the selected item: */
             var y, i, k, s, h;
             s = this.parentNode.parentNode.getElementsByTagName("select")[0];
-            h = this.parentNode.previousSibling;
+            h = this.parentNode.previousSibling; 
             for (i = 0; i < s.length; i++) {
                 if (s.options[i].innerHTML == this.innerHTML) {
                     s.selectedIndex = i;
@@ -40,6 +40,7 @@ for (i = 0; i < x.length; i++) {
     }
     x[i].appendChild(b);
     a.addEventListener("click", function (e) {
+
         /* When the select box is clicked, close any other select boxes,
         and open/close the current select box: */
         e.stopPropagation();
@@ -50,6 +51,7 @@ for (i = 0; i < x.length; i++) {
 }
 
 function closeAllSelect(elmnt) {
+
     /* A function that will close all select boxes in the document,
     except the current select box: */
     var x, y, i, arrNo = [];
@@ -107,4 +109,14 @@ let hiloPregunta = setInterval(function () {
 
 
     }
-}, 17)
+}, 17);
+
+let button = document.querySelector("#aceptar"); 
+
+button.addEventListener("click", function (e) {
+
+    localStorage.setItem("Teatro", ciudadSeleccionada.textContent);
+
+    console.log(ciudadSeleccionada.textContent)
+    window.location.href = "home.html";
+});
